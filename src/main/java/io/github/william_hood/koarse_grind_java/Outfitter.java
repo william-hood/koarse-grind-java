@@ -26,7 +26,7 @@ import io.github.william_hood.boolog_java.Boolog;
 /**
  * An Outfitter is used to provide a setup and cleanup for a whole category of tests. Leave the categoryPath field
  * as the default (empty string) value to assign it to the top-level category. IMPORTANT: Your outfitter must be a
- * CLASS, not an OBJECT in Kotlin. Also it must use a default constructor with no parameters.
+ * CLASS and must use a default constructor with no parameters.
  */
 public abstract class Outfitter extends io.github.william_hood.koarse_grind_kotlin.Outfitter {
     public Outfitter(String categoryPath) {
